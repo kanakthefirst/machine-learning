@@ -1,0 +1,46 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                 dataroot: ./datasets/horse2zebra        	[default: None]
+             dataset_mode: unaligned_seg                 
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: True                          	[default: False]
+                fineSizeH: 200                           
+                fineSizeW: 200                           
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  ins_max: 20                            	[default: 4]
+                  ins_per: 2                             
+                  isTrain: False                         	[default: None]
+                 loadSize: None                          
+                loadSizeH: 200                           	[default: 220]
+                loadSizeW: 200                           	[default: 220]
+                load_iter: 0                             	[default: 0]
+         max_dataset_size: inf                           
+                    model: insta_gan                     	[default: test]
+               n_layers_D: 3                             
+                     name: instagan_50                   	[default: experiment_name]
+                      ndf: 64                            
+                     netD: set                           
+                     netG: set                           
+                      ngf: 64                            
+               no_dropout: True                          
+                  no_flip: False                         
+                     norm: instance                      
+                    ntest: inf                           
+                 num_test: 50                            
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: train                         	[default: test]
+           resize_or_crop: resize_and_crop               
+              results_dir: ./results/                    
+           serial_batches: False                         
+                set_order: decreasing                    
+                   suffix:                               
+                  verbose: False                         
+----------------- End -------------------

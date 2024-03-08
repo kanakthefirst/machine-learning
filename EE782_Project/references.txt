@@ -1,0 +1,5 @@
+CycleGAN:
+-https://machinelearningmastery.com/cyclegan-tutorial-with-keras/
+-https://www.tensorflow.org/tutorials/generative/cyclegan
+InstaGAN:
+-https://github.com/sangwoomo/instagan
